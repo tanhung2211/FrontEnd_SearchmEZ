@@ -4,6 +4,7 @@ import NavigationList from '~/components/shared/navigation/NavigationList';
 import HeaderFurniture from '~/components/shared/headers/HeaderFurniture';
 import HeaderMobileFurniture from '~/components/shared/headers/HeaderMobileFurniture';
 import FooterSecond from '~/components/shared/footers/FooterSecond';
+import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
 
 const ContainerHomeFurniture = ({ children, title = 'Home Furniture' }) => {
     let titleView;
@@ -18,7 +19,7 @@ const ContainerHomeFurniture = ({ children, title = 'Home Furniture' }) => {
             <Head>
                 <title>{titleView}</title>
             </Head>
-            <HeaderFurniture />
+            <HeaderMarketPlace4 />
             <HeaderMobileFurniture />
             <NavigationList />
             <main id="homepage-8">{children}</main>

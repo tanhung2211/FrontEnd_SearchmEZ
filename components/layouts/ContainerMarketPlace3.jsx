@@ -5,6 +5,7 @@ import NavigationList from '~/components/shared/navigation/NavigationList';
 
 import FooterMarketPlace2 from '~/components/shared/footers/FooterMarketPlace2';
 import HeaderMarketPlace3 from '~/components/shared/headers/HeaderMarketPlace3';
+import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
 
 const ContainerMarketPlace3 = ({ children, title }) => {
     let titleView;
@@ -19,7 +20,7 @@ const ContainerMarketPlace3 = ({ children, title }) => {
             <Head>
                 <title>{titleView}</title>
             </Head>
-            <HeaderMarketPlace3 />
+            <HeaderMarketPlace4 />
             <HeaderMobile />
             <NavigationList />
             <main id="homepage-5">

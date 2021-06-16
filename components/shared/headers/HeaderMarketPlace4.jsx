@@ -22,26 +22,47 @@ const HeaderMarketPlace4 = () => {
             <div className="header__top">
                 <div className="container">
                     <div className="header__left">
-                        <p>Welcome to Martfury Online Shopping Store !</p>
+                        <p>Welcome to SearchmeZ !</p>
                     </div>
                     <div className="header__right">
                         <ul className="header__top-links">
                             <li>
-                                <Link href="/vendor/store-list">
-                                    <a>Store Location</a>
+                                <Link href="/page/blog">
+                                    <a>News</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/page/blank">
-                                    <a>Track Your Order</a>
+                                <Link href="#">
+                                    <a>Forum</a>
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link href="#">
+                                    <a>About us</a>
                                 </Link>
                             </li>
                             <li>
-                                <CurrencyDropdown />
+                                <Link href="#">
+                                    <a>Help</a>
+                                </Link>
                             </li>
-                            <li>
-                                <LanguageSwicher />
-                            </li>
+                            {/*<li>*/}
+                            {/*    <Link href="/vendor/store-list">*/}
+                            {/*        <a>Store Location</a>*/}
+                            {/*    </Link>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*    <Link href="/page/blank">*/}
+                            {/*        <a>Track Your Order</a>*/}
+                            {/*    </Link>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*    <CurrencyDropdown />*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*    <LanguageSwicher />*/}
+                            {/*</li>*/}
                         </ul>
                     </div>
                 </div>
@@ -49,10 +70,10 @@ const HeaderMarketPlace4 = () => {
             <div className="header__content">
                 <div className="container">
                     <div className="header__content-left">
-                        <Link href="/home/market-place-4">
+                        <Link href="/">
                             <a className="ps-logo">
                                 <img
-                                    src="/static/img/logo_light.png"
+                                    src="/static/img/logo_searchmez.png"
                                     alt="martfury"
                                 />
                             </a>
@@ -60,7 +81,7 @@ const HeaderMarketPlace4 = () => {
                         <div className="menu--product-categories">
                             <div className="menu__toggle">
                                 <i className="icon-menu"></i>
-                                <span> Shop by Department</span>
+                                <span> SearchmEZ Listing</span>
                             </div>
                             <div className="menu__content">
                                 <Menu
@@ -72,29 +93,29 @@ const HeaderMarketPlace4 = () => {
                     </div>
                     <div className="header__content-center">
                         <SearchHeader />
-                        <p>
-                            <Link href="/shop">
-                                <a>iphone x</a>
-                            </Link>
-                            <Link href="/shop">
-                                <a>virtual</a>
-                            </Link>
-                            <Link href="/shop">
-                                <a>apple</a>
-                            </Link>
-                            <Link href="/shop">
-                                <a>wireless</a>
-                            </Link>
-                            <Link href="/shop">
-                                <a>simple chair</a>
-                            </Link>
-                            <Link href="/shop">
-                                <a>classic watch</a>
-                            </Link>
-                            <Link href="/shop">
-                                <a>macbook</a>
-                            </Link>
-                        </p>
+                        {/*<p>*/}
+                        {/*    <Link href="/shop">*/}
+                        {/*        <a>iphone x</a>*/}
+                        {/*    </Link>*/}
+                        {/*    <Link href="/shop">*/}
+                        {/*        <a>virtual</a>*/}
+                        {/*    </Link>*/}
+                        {/*    <Link href="/shop">*/}
+                        {/*        <a>apple</a>*/}
+                        {/*    </Link>*/}
+                        {/*    <Link href="/shop">*/}
+                        {/*        <a>wireless</a>*/}
+                        {/*    </Link>*/}
+                        {/*    <Link href="/shop">*/}
+                        {/*        <a>simple chair</a>*/}
+                        {/*    </Link>*/}
+                        {/*    <Link href="/shop">*/}
+                        {/*        <a>classic watch</a>*/}
+                        {/*    </Link>*/}
+                        {/*    <Link href="/shop">*/}
+                        {/*        <a>macbook</a>*/}
+                        {/*    </Link>*/}
+                        {/*</p>*/}
                     </div>
                     <div className="header__content-right">
                         <ElectronicHeaderActions />

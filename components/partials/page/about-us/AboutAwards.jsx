@@ -74,7 +74,7 @@ class AboutAwards extends Component {
                                     <a>
                                         <img
                                             src="/static/img/awards/1.png"
-                                            alt="martfury"
+                                            alt="SearchmeZ"
                                         />
                                     </a>
                                 </Link>
@@ -84,7 +84,7 @@ class AboutAwards extends Component {
                                     <a>
                                         <img
                                             src="/static/img/awards/2.png"
-                                            alt="martfury"
+                                            alt="SearchmeZ"
                                         />
                                     </a>
                                 </Link>
@@ -94,7 +94,7 @@ class AboutAwards extends Component {
                                     <a>
                                         <img
                                             src="/static/img/awards/3.png"
-                                            alt="martfury"
+                                            alt="SearchmeZ"
                                         />
                                     </a>
                                 </Link>

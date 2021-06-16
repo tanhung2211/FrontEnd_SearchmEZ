@@ -6,6 +6,7 @@ import NavigationList from '~/components/shared/navigation/NavigationList';
 import Newletters from '~/components/partials/commons/Newletters';
 import FooterFullwidth from '~/components/shared/footers/FooterFullwidth';
 import FooterDefault from '~/components/shared/footers/FooterDefault';
+import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
 
 const ContainerShop = ({ children, title, boxed = false }) => {
     let titleView;
@@ -18,9 +19,9 @@ const ContainerShop = ({ children, title, boxed = false }) => {
         return (
             <div className="martfury">
                 <Head>
-                    <title>{titleView}</title>
+                    <title>SearchmEZ</title>
                 </Head>
-                <HeaderDefault />
+                <HeaderMarketPlace4/>
                 <HeaderMobile />
                 <main>{children}</main>
                 <Newletters layout='container' />
@@ -34,7 +35,7 @@ const ContainerShop = ({ children, title, boxed = false }) => {
                 <Head>
                     <title>{titleView}</title>
                 </Head>
-                <HeaderDefault />
+                <HeaderMarketPlace4/>
                 <HeaderMobile />
                 <main>{children}</main>
                 <Newletters />

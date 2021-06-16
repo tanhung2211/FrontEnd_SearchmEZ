@@ -71,24 +71,27 @@ const BestSaleItems = ({ collectionSlug }) => {
 
     return (
         <div className="ps-block--shop-features">
-            <div className="ps-block__header">
-                <h3>Best Sale Items</h3>
-                <div className="ps-block__navigation">
-                    <a
-                        className="ps-carousel__prev"
-                        onClick={(e) => handleCarouselPrev(e)}>
-                        <i className="icon-chevron-left"></i>
-                    </a>
-                    <a
-                        className="ps-carousel__next"
-                        onClick={(e) => handleCarouselNext(e)}>
-                        <i className="icon-chevron-right"></i>
-                    </a>
+            <div className="ps-container">
+                <div className="ps-block__header">
+                    <h3>Hot Sale</h3>
+                    <div className="ps-block__navigation">
+                        <a
+                            className="ps-carousel__prev"
+                            onClick={(e) => handleCarouselPrev(e)}>
+                            <i className="icon-chevron-left"></i>
+                        </a>
+                        <a
+                            className="ps-carousel__next"
+                            onClick={(e) => handleCarouselNext(e)}>
+                            <i className="icon-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div className="ps-block__content">
+                    {productItemsView}
                 </div>
             </div>
-            <div className="ps-block__content">
-                {productItemsView}
-            </div>
+
         </div>
     );
 };

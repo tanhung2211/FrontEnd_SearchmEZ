@@ -5,6 +5,7 @@ import SiteFeatures from '~/components/partials/homepage/autopart/SiteFeatures';
 import FooterDefault from '~/components/shared/footers/FooterDefault';
 import HeaderElectronic from '~/components/shared/headers/HeaderElectronic';
 import HeaderMobileElectronic from '~/components/shared/headers/HeaderMobileElectronic';
+import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
 
 const ContainerHomeElectronics = ({ children, title = 'Home Electronics' }) => {
     let titleView;
@@ -19,7 +20,7 @@ const ContainerHomeElectronics = ({ children, title = 'Home Electronics' }) => {
             <Head>
                 <title>{titleView}</title>
             </Head>
-            <HeaderElectronic />
+            <HeaderMarketPlace4 />
             <HeaderMobileElectronic />
             <NavigationList />
             {/* <SubscribePopup active={subscribe} />*/}

@@ -5,6 +5,7 @@ import SiteFeatures from '~/components/partials/homepage/autopart/SiteFeatures';
 import HeaderTechnology from '~/components/shared/headers/HeaderTechnology';
 import HeaderMobileTechnology from '~/components/shared/headers/HeaderMobileTechnology';
 import FooterSecond from '~/components/shared/footers/FooterSecond';
+import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
 
 const ContainerHomeTechnology = ({ children, title = 'Home Technology' }) => {
     let titleView;
@@ -19,7 +20,7 @@ const ContainerHomeTechnology = ({ children, title = 'Home Technology' }) => {
             <Head>
                 <title>{titleView}</title>
             </Head>
-            <HeaderTechnology />
+            <HeaderMarketPlace4 />
             <HeaderMobileTechnology />
             <NavigationList />
             <main id="homepage-10">

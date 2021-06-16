@@ -62,7 +62,7 @@ const HomeDefaultDealOfDay = ({ collectionSlug }) => {
                 <div className="ps-section__header">
                     <div className="ps-block--countdown-deal">
                         <div className="ps-block__left">
-                            <h3>Deal of the day</h3>
+                            <h3>Check out the deals ending soon</h3>
                         </div>
                         <div className="ps-block__right">
                             <figure>

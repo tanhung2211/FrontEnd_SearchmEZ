@@ -146,7 +146,7 @@ export function StrapiProductThumbnail(product) {
             <Link href="/product/[pid]" as={`/product/${product.id}`}>
                 <a>
                     <LazyLoad>
-                        <img src="/static/img/not-found.jpg" alt="martfury" />
+                        <img src="/static/img/not-found.jpg" alt="SearchmeZ" />
                     </LazyLoad>
                 </a>
             </Link>

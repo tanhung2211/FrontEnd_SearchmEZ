@@ -5,6 +5,7 @@ import HeaderAutoPart from '~/components/shared/headers/HeaderAutoPart';
 import HeaderMobileAutopart from '~/components/shared/headers/HeaderMobileAutopart';
 import SiteFeatures from '~/components/partials/homepage/autopart/SiteFeatures';
 import FooterSecond from '~/components/shared/footers/FooterSecond';
+import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
 
 const ContainerHomeAutopart = ({ children, title = 'Home Autopart' }) => {
     let titleView;
@@ -19,7 +20,7 @@ const ContainerHomeAutopart = ({ children, title = 'Home Autopart' }) => {
             <Head>
                 <title>{titleView}</title>
             </Head>
-            <HeaderAutoPart />
+            <HeaderMarketPlace4/>
             <HeaderMobileAutopart />
             <NavigationList />
             <main id="homepage-2">

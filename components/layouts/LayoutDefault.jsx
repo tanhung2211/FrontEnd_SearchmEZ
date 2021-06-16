@@ -5,6 +5,7 @@ import FooterDefault from '~/components/shared/footers/FooterDefault';
 import Newsletters from '~/components/partials/commons/Newletters';
 import HeaderDefault from '~/components/shared/headers/HeaderDefault';
 import NavigationList from '~/components/shared/navigation/NavigationList';
+import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
 
 const LayoutDefault = ({ children, title }) => {
     let titleView;
@@ -19,7 +20,7 @@ const LayoutDefault = ({ children, title }) => {
             <Head>
                 <title>{titleView}</title>
             </Head>
-            <HeaderDefault />
+            <HeaderMarketPlace4 />
             <NavigationList />
             {children}
             <Newsletters layout="container" />

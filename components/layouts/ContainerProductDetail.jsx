@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Newletters from '~/components/partials/commons/Newletters';
 import FooterFullwidth from '~/components/shared/footers/FooterFullwidth';
 import HeaderMobileProduct from '~/components/shared/header-mobile/HeaderMobileProduct';
+import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
 
 const ContainerProductDetail = ({ children, title }) => {
     let titleView;
@@ -17,6 +18,7 @@ const ContainerProductDetail = ({ children, title }) => {
             <Head>
                 <title>{titleView}</title>
             </Head>
+            <HeaderMarketPlace4/>
             <HeaderMobileProduct />
             <main>{children}</main>
             <Newletters />

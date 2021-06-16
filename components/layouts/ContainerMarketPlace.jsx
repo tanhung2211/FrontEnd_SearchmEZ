@@ -8,6 +8,7 @@ import FooterDefault from '~/components/shared/footers/FooterDefault';
 import Newsletters from '~/components/partials/commons/Newletters';
 import MarketPlacePromotionHeader from '~/components/partials/homepage/marketplace/MarketPlacePromotionHeader';
 import HeaderMarketPlace from '~/components/shared/headers/HeaderMarketPlace';
+import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
 
 const ContainerMarketPlace = ({ children, title }) => {
     let titleView;
@@ -23,7 +24,7 @@ const ContainerMarketPlace = ({ children, title }) => {
                 <title>{titleView}</title>
             </Head>
             <MarketPlacePromotionHeader />
-            <HeaderMarketPlace />
+            <HeaderMarketPlace4 />
             <HeaderMobile />
             <NavigationList />
             <main id="homepage-3">

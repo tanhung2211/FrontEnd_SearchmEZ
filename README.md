@@ -1,4 +1,4 @@
-## MARTFURY TEMPLATE - REACT VERSION v2.1.0 (Strapi CMS)
+## SearchmeZ TEMPLATE - REACT VERSION v2.1.0 (Strapi CMS)
 
 ### Changelogs
 

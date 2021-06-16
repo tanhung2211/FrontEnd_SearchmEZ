@@ -5,6 +5,7 @@ import NavigationList from '~/components/shared/navigation/NavigationList';
 import HeaderOrganic from '~/components/shared/headers/HeaderOrganic';
 import HeaderMobileOrganic from '~/components/shared/headers/HeaderMobileOrganic';
 import FooterSecond from '~/components/shared/footers/FooterSecond';
+import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
 
 const ContainerHomeOrganic = ({ children, title = 'Home Organic' }) => {
     let titleView;
@@ -19,7 +20,7 @@ const ContainerHomeOrganic = ({ children, title = 'Home Organic' }) => {
             <Head>
                 <title>{titleView}</title>
             </Head>
-            <HeaderOrganic />
+            <HeaderMarketPlace4 />
             <HeaderMobileOrganic />
             <NavigationList />
             <main id="homepage-9">{children}</main>

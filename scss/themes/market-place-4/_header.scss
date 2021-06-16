@@ -1,3 +1,6 @@
+$color-heading: #FFF;
+$color-layout-2-1st: #ff7900;
+$color-1st: #424342;
 .header--market-place-4 {
     .ps-dropdown {
         a {
@@ -9,7 +12,7 @@
 
     .header__extra {
         span {
-            background-color: $color-heading;
+            background-color: $color-layout-2-1st;
             i {
                 color: #ffffff;
             }
@@ -25,7 +28,7 @@
     }
 
     .header__top {
-        background-color: #dba500;
+        background-color: $color-1st;
 
         .header__left {
             p {
@@ -71,7 +74,7 @@
             margin-bottom: 10px;
 
             button {
-                background-color: #000;
+                background-color: $color-layout-2-1st;
                 color: #fff;
             }
         }
@@ -111,3 +114,20 @@
         }
     }
 }
+.header .header__extra > i {
+    color: #FFF;
+}
+.ps-block--user-header .ps-block__left i {color: #FFF;}
+.ps-block--user-header .ps-block__right a {color: #FFF;}
+.header--market-place-4 .header__top .header__top-links li:after {border-color: #FFF;}
+.ps-block--user-header .ps-block__right a:hover {
+    color: $color-layout-2-1st;
+}
+.header--standard.header--sticky .header__content {
+    background-color: $color-1st;
+}
+.header--market-place-4.header--sticky .header__content .menu--product-categories span {color: #FFF;}
+.widget_footer .widget-title {
+    color: $color-layout-2-1st;
+}
+.ps-list--link li a {color: #FFF;}

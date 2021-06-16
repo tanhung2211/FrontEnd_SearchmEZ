@@ -10,31 +10,53 @@ import HomeDefaultTopCategories from '~/components/partials/homepage/home-defaul
 import ContainerHomeDefault from '~/components/layouts/ContainerHomeDefault';
 import HomeDefaultProductListing from '~/components/partials/homepage/home-default/HomeDefaultProductListing';
 import HomeDefaultBanner from '~/components/partials/homepage/home-default/HomeDefaultBanner';
+import BestSaleItems from "~/components/partials/shop/modules/BestSaleItems";
 
 const HomepageDefaultPage = () => {
     return (
-        <ContainerHomeDefault title="Multipurpose Marketplace React Ecommerce Template">
+        <ContainerHomeDefault title="Multipurpose Marketplace">
             <HomeDefaultBanner />
-            <SiteFeatures />
-            <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />
-            <HomeAdsColumns />
             <HomeDefaultTopCategories />
-            <HomeDefaultProductListing
+            <BestSaleItems
                 collectionSlug="consumer-electronics"
                 title="Consumer Electronics"
             />
+            <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />
+
+            <HomeDefaultProductListing
+                collectionSlug="consumer-electronics"
+                title="Hire someone for your project"
+            />
+            <HomeAdsColumns />
             <HomeDefaultProductListing
                 collectionSlug="clothings"
-                title="Clothings"
+                title="Apply and don't miss out the oppurtunity"
             />
             <HomeDefaultProductListing
                 collectionSlug="garden-and-kitchen"
-                title="Garden & Kitchen"
+                title="Find your dream house"
             />
+                <HomeDefaultProductListing
+                    collectionSlug="garden-and-kitchen"
+                    title="Recent a place or a car"
+                />
             <HomeAds />
-            <DownLoadApp />
-            <NewArrivals collectionSlug="new-arrivals-products" />
-            <Newletters />
+            <HomeDefaultProductListing
+                collectionSlug="garden-and-kitchen"
+                title="Read and learn something interesting"
+            />
+            <HomeDefaultProductListing
+                collectionSlug="garden-and-kitchen"
+                title="Discover and book your next destination"
+            />
+            <HomeDefaultProductListing
+                collectionSlug="garden-and-kitchen"
+                title="Other things you should be looking for"
+            />
+            {/*<DownLoadApp />*/}
+            {/*<NewArrivals collectionSlug="new-arrivals-products" />*/}
+            {/*<Newletters />*/}
+            {/*<SiteFeatures />*/}
         </ContainerHomeDefault>
     );
 };

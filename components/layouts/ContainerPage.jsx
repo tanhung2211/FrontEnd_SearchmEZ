@@ -6,6 +6,8 @@ import NavigationList from '~/components/shared/navigation/NavigationList';
 import Newletters from '~/components/partials/commons/Newletters';
 import FooterFullwidth from '~/components/shared/footers/FooterFullwidth';
 import FooterDefault from '~/components/shared/footers/FooterDefault';
+import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
+import HeaderMarketPlace3 from "~/components/shared/headers/HeaderMarketPlace3";
 
 const ContainerPage = ({ children, title, boxed = false }) => {
     let titleView;
@@ -20,7 +22,7 @@ const ContainerPage = ({ children, title, boxed = false }) => {
                 <Head>
                     <title>{titleView}</title>
                 </Head>
-                <HeaderDefault />
+                <HeaderMarketPlace4/>
                 <HeaderMobile />
                 <main>{children}</main>
                 <Newletters layout="container" />
@@ -34,7 +36,7 @@ const ContainerPage = ({ children, title, boxed = false }) => {
                 <Head>
                     <title>{titleView}</title>
                 </Head>
-                <HeaderDefault />
+                <HeaderMarketPlace4/>
                 <HeaderMobile />
                 <main>{children}</main>
                 <Newletters />

@@ -4,15 +4,15 @@ import Link from 'next/link';
 const HomeDefaultTopCategories = () => (
     <div className="ps-top-categories">
         <div className="ps-container">
-            <h3>Top categories of the month</h3>
+            {/*<h3>Top categories of the month</h3>*/}
             <div className="row">
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
                         <Link href="/shop">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/static/img/categories/1.jpg" alt="martfury" />
-                        <p>Electronics</p>
+                        <img src="/searchmez/animal.png" alt="martfury" />
+                        <p>Animals</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
@@ -20,8 +20,8 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/shop">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/static/img/categories/2.jpg" alt="martfury" />
-                        <p>Clothings</p>
+                        <img src="/searchmez/auction.png" alt="martfury" />
+                        <p>Auction</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
@@ -29,8 +29,8 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/shop">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/static/img/categories/3.jpg" alt="martfury" />
-                        <p>Computers</p>
+                        <img src="/searchmez/automobile.png" alt="martfury" />
+                        <p>Automobiles</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
@@ -38,8 +38,8 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/shop">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/static/img/categories/4.jpg" alt="martfury" />
-                        <p>Home & Kitchen</p>
+                        <img src="/searchmez/blog.png" alt="martfury" />
+                        <p>Blogs</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
@@ -47,8 +47,8 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/shop">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/static/img/categories/5.jpg" alt="martfury" />
-                        <p>Health & Beauty</p>
+                        <img src="/searchmez/booking.png" alt="martfury" />
+                        <p>Booking</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
@@ -56,8 +56,8 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/shop">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/static/img/categories/6.jpg" alt="martfury" />
-                        <p>Health & Beauty</p>
+                        <img src="/searchmez/coupon.png" alt="martfury" />
+                        <p>Coupon</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
@@ -65,8 +65,8 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/shop">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/static/img/categories/7.jpg" alt="martfury" />
-                        <p>Jewelry & Watch</p>
+                        <img src="/searchmez/event.png" alt="martfury" />
+                        <p>Events</p>
                     </div>
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
@@ -74,8 +74,80 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/shop">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/static/img/categories/8.jpg" alt="martfury" />
-                        <p>Technology Toys</p>
+                        <img src="/searchmez/generallisting.png" alt="martfury" />
+                        <p>General Listing</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
+                    <div className="ps-block--category">
+                        <Link href="/shop">
+                            <a className="ps-block__overlay"></a>
+                        </Link>
+                        <img src="/searchmez/job.png" alt="martfury" />
+                        <p>Jobs</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
+                    <div className="ps-block--category">
+                        <Link href="/shop">
+                            <a className="ps-block__overlay"></a>
+                        </Link>
+                        <img src="/searchmez/meetups.png" alt="martfury" />
+                        <p>Meetups</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
+                    <div className="ps-block--category">
+                        <Link href="/shop">
+                            <a className="ps-block__overlay"></a>
+                        </Link>
+                        <img src="/searchmez/people.png" alt="martfury" />
+                        <p>People</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
+                    <div className="ps-block--category">
+                        <Link href="/shop">
+                            <a className="ps-block__overlay"></a>
+                        </Link>
+                        <img src="/searchmez/places.png" alt="martfury" />
+                        <p>Places</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
+                    <div className="ps-block--category">
+                        <Link href="/shop">
+                            <a className="ps-block__overlay"></a>
+                        </Link>
+                        <img src="/searchmez/realestate.png" alt="martfury" />
+                        <p>Real Estate</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
+                    <div className="ps-block--category">
+                        <Link href="/shop">
+                            <a className="ps-block__overlay"></a>
+                        </Link>
+                        <img src="/searchmez/services.png" alt="martfury" />
+                        <p>Service Shop</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
+                    <div className="ps-block--category">
+                        <Link href="/shop">
+                            <a className="ps-block__overlay"></a>
+                        </Link>
+                        <img src="/searchmez/stores.png" alt="martfury" />
+                        <p>Stores</p>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
+                    <div className="ps-block--category">
+                        <Link href="/shop">
+                            <a className="ps-block__overlay"></a>
+                        </Link>
+                        <img src="/searchmez/webdirectory.png" alt="martfury" />
+                        <p>Web Directory</p>
                     </div>
                 </div>
             </div>
