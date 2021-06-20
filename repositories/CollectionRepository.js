@@ -74,6 +74,25 @@ class CollectionRepository {
             });
         return reponse;
     }
+
+    async getListingSlug(slug) {
+        const reponse = await Repository.get(
+            `http://api.searchmez.work/api/listing/${slug}`
+        )
+            .then((response) => {
+                if (response.data && response.data.length > 0) {
+                    return { items: response.data };
+                } else {
+                    return null;
+                }
+                return response.data;
+            })
+            .catch((error) => {
+                console.log(JSON.stringify(error));
+                return null;
+            });
+        return reponse;
+    }
 }
 
 export default new CollectionRepository();

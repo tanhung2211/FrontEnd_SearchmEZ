@@ -27,7 +27,7 @@ const HeaderMarketPlace4 = () => {
                     <div className="header__right">
                         <ul className="header__top-links">
                             <li>
-                                <Link href="/page/blog">
+                                <Link href="/blog">
                                     <a>News</a>
                                 </Link>
                             </li>
@@ -38,12 +38,12 @@ const HeaderMarketPlace4 = () => {
                             </li>
 
                             <li>
-                                <Link href="#">
+                                <Link href="/page/about-us">
                                     <a>About us</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="#">
+                                <Link href="/page/faqs">
                                     <a>Help</a>
                                 </Link>
                             </li>

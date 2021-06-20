@@ -28,19 +28,19 @@ const HomeAdsColumns = () => {
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
                         <Promotion
-                            link="/shop"
+                            link="/listing"
                             image={promotion1 ? promotion1.image : null}
                         />
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
                         <Promotion
-                            link="/shop"
+                            link="/listing"
                             image={promotion2 ? promotion2.image : null}
                         />
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 ">
                         <Promotion
-                            link="/shop"
+                            link="/listing"
                             image={promotion3 ? promotion3.image : null}
                         />
                     </div>

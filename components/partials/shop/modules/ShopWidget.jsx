@@ -41,7 +41,7 @@ class ShopWidget extends Component {
     handleFilterByBrand(value) {
         if (value.length > 0) {
             this.props.dispatch(getProductsByBrand(value));
-            Router.push({ pathname: '/shop', query: { brand: value } });
+            Router.push({ pathname: '/listing', query: { brand: value } });
         } else {
             const params = {
                 _start: 1,
@@ -55,7 +55,7 @@ class ShopWidget extends Component {
     handleFilterProductsByCategory(e, slug) {
         e.preventDefault();
         if (slug !== null) {
-            Router.push({ pathname: '/shop', query: { category: slug } });
+            Router.push({ pathname: '/listing', query: { category: slug } });
             this.props.dispatch(getProductsByCategory(slug));
         } else {
             const params = {

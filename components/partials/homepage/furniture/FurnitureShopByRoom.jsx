@@ -56,7 +56,7 @@ class FurnitureShopByRoom extends Component {
                                     key={room.title}>
                                     <div className="ps-block--category-room">
                                         <div className="ps-block__thumbnail">
-                                            <Link href="/shop">
+                                            <Link href="/listing">
                                                 <a>
                                                     <img
                                                         src={room.imagePath}
@@ -66,7 +66,7 @@ class FurnitureShopByRoom extends Component {
                                             </Link>
                                         </div>
                                         <div className="ps-block__content">
-                                            <Link href="/shop">
+                                            <Link href="/listing">
                                                 <a>{room.title}</a>
                                             </Link>
                                         </div>

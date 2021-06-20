@@ -36,7 +36,7 @@ const HeaderMarketPlace3 = () => {
                             <a className="ps-logo">
                                 q
                                 <img
-                                    src="/static/img/logo_light.png"
+                                    src="/static/img/logo_searchmez.png"
                                     alt="martfury"
                                 />
                             </a>

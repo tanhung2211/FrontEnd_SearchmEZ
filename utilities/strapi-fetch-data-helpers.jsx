@@ -48,3 +48,26 @@ export async function getProductsByCategoriesHelper(slug, pageSize = 12) {
         return null;
     }
 }
+
+export async function getListingSlug(
+    collectionSlug,
+    pageSize = 12
+) {
+    let products;
+    if (collectionSlug) {
+        products = await CollectionRepository.getListingSlug(
+            collectionSlug
+        );
+    } else {
+        const queries = {
+            _limit: pageSize,
+        };
+        products = await ProductRepository.getRecords(queries);
+    }
+
+    if (products) {
+        return products;
+    } else {
+        return null;
+    }
+}

@@ -17,7 +17,7 @@ const ShopDefaultPage = () => {
             url: '/',
         },
         {
-            text: 'Shop Default',
+            text: 'Lister',
         },
     ];
 
@@ -27,23 +27,23 @@ const ShopDefaultPage = () => {
                 <BreadCrumb breacrumb={breadCrumb} layout="fullwidth" />
                 <div className="ps-container">
                     <ShopBanner />
-                    <ShopBrands />
-                    <ShopCategories />
+                    {/*<ShopBrands />*/}
+                    {/*<ShopCategories />*/}
                     <div className="ps-layout--shop">
                         <div className="ps-layout__left">
                             <WidgetShopCategories />
-                            <WidgetShopBrands />
-                            <WidgetShopFilterByPriceRange />
+                            {/*<WidgetShopBrands />*/}
+                            {/*<WidgetShopFilterByPriceRange />*/}
                         </div>
                         <div className="ps-layout__right">
-                            <ProductGroupByCarousel
-                                collectionSlug="shop-best-seller-items"
-                                title="Best Sale Items"
-                            />
-                            <ProductGroupByCarousel
-                                collectionSlug="shop-recommend-items"
-                                title="Recommended Items"
-                            />
+                            {/*<ProductGroupByCarousel*/}
+                            {/*    collectionSlug="shop-best-seller-items"*/}
+                            {/*    title="Best Sale Items"*/}
+                            {/*/>*/}
+                            {/*<ProductGroupByCarousel*/}
+                            {/*    collectionSlug="shop-recommend-items"*/}
+                            {/*    title="Recommended Items"*/}
+                            {/*/>*/}
                             <ShopItems columns={6} pageSize={18} />
                         </div>
                     </div>

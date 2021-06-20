@@ -40,7 +40,7 @@ const ProductDefaulCountdown = () => {
         },
         {
             text: 'Shop',
-            url: '/shop',
+            url: '/listing',
         },
         {
             text: product ? product.title : 'Loading...',

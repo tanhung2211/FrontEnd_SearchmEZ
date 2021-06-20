@@ -51,32 +51,32 @@ const NewArrivals = ({ collectionSlug }) => {
                     <h3>Hot New Arrivals</h3>
                     <ul className="ps-section__links">
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>Technologies</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>Electronic</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>Furnitures</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>Clothing & Apparel</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/shop?category=health-and-beauty">
+                            <Link href="/listing?category=health-and-beauty">
                                 <a>Health & Beauty</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>View All</a>
                             </Link>
                         </li>

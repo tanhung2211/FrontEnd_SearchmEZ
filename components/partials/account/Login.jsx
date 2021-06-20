@@ -112,51 +112,51 @@ class Login extends Component {
                                     </button>
                                 </div>
                             </div>
-                            <div className="ps-form__footer">
-                                <p>Connect with:</p>
-                                <ul className="ps-list--social">
-                                    <li>
-                                        <a
-                                            className="facebook"
-                                            href="#"
-                                            onClick={e =>
-                                                this.handleFeatureWillUpdate(e)
-                                            }>
-                                            <i className="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            className="google"
-                                            href="#"
-                                            onClick={e =>
-                                                this.handleFeatureWillUpdate(e)
-                                            }>
-                                            <i className="fa fa-google-plus"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            className="twitter"
-                                            href="#"
-                                            onClick={e =>
-                                                this.handleFeatureWillUpdate(e)
-                                            }>
-                                            <i className="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            className="instagram"
-                                            href="#"
-                                            onClick={e =>
-                                                this.handleFeatureWillUpdate(e)
-                                            }>
-                                            <i className="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                            {/*<div className="ps-form__footer">*/}
+                            {/*    <p>Connect with:</p>*/}
+                            {/*    <ul className="ps-list--social">*/}
+                            {/*        <li>*/}
+                            {/*            <a*/}
+                            {/*                className="facebook"*/}
+                            {/*                href="#"*/}
+                            {/*                onClick={e =>*/}
+                            {/*                    this.handleFeatureWillUpdate(e)*/}
+                            {/*                }>*/}
+                            {/*                <i className="fa fa-facebook"></i>*/}
+                            {/*            </a>*/}
+                            {/*        </li>*/}
+                            {/*        <li>*/}
+                            {/*            <a*/}
+                            {/*                className="google"*/}
+                            {/*                href="#"*/}
+                            {/*                onClick={e =>*/}
+                            {/*                    this.handleFeatureWillUpdate(e)*/}
+                            {/*                }>*/}
+                            {/*                <i className="fa fa-google-plus"></i>*/}
+                            {/*            </a>*/}
+                            {/*        </li>*/}
+                            {/*        <li>*/}
+                            {/*            <a*/}
+                            {/*                className="twitter"*/}
+                            {/*                href="#"*/}
+                            {/*                onClick={e =>*/}
+                            {/*                    this.handleFeatureWillUpdate(e)*/}
+                            {/*                }>*/}
+                            {/*                <i className="fa fa-twitter"></i>*/}
+                            {/*            </a>*/}
+                            {/*        </li>*/}
+                            {/*        <li>*/}
+                            {/*            <a*/}
+                            {/*                className="instagram"*/}
+                            {/*                href="#"*/}
+                            {/*                onClick={e =>*/}
+                            {/*                    this.handleFeatureWillUpdate(e)*/}
+                            {/*                }>*/}
+                            {/*                <i className="fa fa-instagram"></i>*/}
+                            {/*            </a>*/}
+                            {/*        </li>*/}
+                            {/*    </ul>*/}
+                            {/*</div>*/}
                         </div>
                     </Form>
                 </div>

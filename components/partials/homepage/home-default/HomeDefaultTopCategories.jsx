@@ -8,7 +8,7 @@ const HomeDefaultTopCategories = () => (
             <div className="row">
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/animals">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/animal.png" alt="martfury" />
@@ -17,7 +17,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/auction">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/auction.png" alt="martfury" />
@@ -26,7 +26,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/automobiles">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/automobile.png" alt="martfury" />
@@ -35,7 +35,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/blogs">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/blog.png" alt="martfury" />
@@ -44,7 +44,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/booking">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/booking.png" alt="martfury" />
@@ -53,7 +53,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/coupon">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/coupon.png" alt="martfury" />
@@ -62,7 +62,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/events">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/event.png" alt="martfury" />
@@ -71,7 +71,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/generallisting">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/generallisting.png" alt="martfury" />
@@ -80,7 +80,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/jobs">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/job.png" alt="martfury" />
@@ -89,7 +89,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/meetups">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/meetups.png" alt="martfury" />
@@ -98,7 +98,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/people">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/people.png" alt="martfury" />
@@ -107,7 +107,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/places">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/places.png" alt="martfury" />
@@ -116,7 +116,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/realestate">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/realestate.png" alt="martfury" />
@@ -125,7 +125,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/services">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/services.png" alt="martfury" />
@@ -134,7 +134,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/stores">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/stores.png" alt="martfury" />
@@ -143,7 +143,7 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6 ">
                     <div className="ps-block--category">
-                        <Link href="/shop">
+                        <Link href="/category/webdirectory">
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/webdirectory.png" alt="martfury" />

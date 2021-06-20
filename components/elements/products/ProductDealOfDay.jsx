@@ -19,7 +19,7 @@ const ProductDealOfDay = ({ product }) => {
                 <ModuleProductActions product={product} />
             </div>
             <div className="ps-product__container">
-                <Link href="/shop">
+                <Link href="/listing">
                     <a className="ps-product__vendor">Young Shop</a>
                 </Link>
                 <div className="ps-product__content">

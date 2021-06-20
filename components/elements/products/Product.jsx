@@ -24,8 +24,8 @@ const Product = ({ product }) => {
                 <ModuleProductActions product={product} />
             </div>
             <div className="ps-product__container">
-                <Link href="/shop">
-                    <a className="ps-product__vendor">Young Shop</a>
+                <Link href="/listing">
+                    <a className="ps-product__vendor">{product.listing}</a>
                 </Link>
                 <div className="ps-product__content">
                     <Link href="/product/[pid]" as={`/product/${product.id}`}>
@@ -35,13 +35,13 @@ const Product = ({ product }) => {
                         <Rating />
                         <span>02</span>
                     </div>
-                    {priceView}
+                    {/*{priceView}*/}
                 </div>
                 <div className="ps-product__content hover">
                     <Link href="/product/[pid]" as={`/product/${product.id}`}>
                         <a className="ps-product__title">{product.title}</a>
                     </Link>
-                    {priceView}
+                    {/*{priceView}*/}
                 </div>
             </div>
         </div>

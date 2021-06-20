@@ -92,7 +92,7 @@ const HomeDefaultProductListing = ({ collectionSlug, title }) => {
                     <ul className="ps-section__links">
                         {sectionLinksView}
                         <li>
-                            <Link href={`/shop`}>
+                            <Link href={`/listing`}>
                                 <a>View All</a>
                             </Link>
                         </li>

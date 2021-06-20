@@ -127,14 +127,13 @@ export function StrapiProductPriceExpanded(product) {
 
 export function StrapiProductThumbnail(product) {
     let view;
-
-    if (product.thumbnail) {
+    if (product.images) {
         view = (
             <Link href="/product/[pid]" as={`/product/${product.id}`}>
                 <a>
                     <LazyLoad>
                         <img
-                            src={`${baseUrl}${product.thumbnail.url}`}
+                            src={`http://dashboard.searchmez.work/searchmez/images/${product.listing}/${product.name}`}
                             alt={product.title}
                         />
                     </LazyLoad>

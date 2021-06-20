@@ -6,14 +6,14 @@ const OrganicPromotions = () => (
         <div className="container">
             <div className="row">
                 <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
-                    <Link href="/shop">
+                    <Link href="/listing">
                         <a className="ps-collection">
                             <img src="/static/img/promotions/home-9/1.jpg" alt="martfury" />
                         </a>
                     </Link>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
-                    <Link href="/shop">
+                    <Link href="/listing">
                         <a className="ps-collection">
                             <img src="/static/img/promotions/home-9/2.jpg" alt="martfury" />
                         </a>

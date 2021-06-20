@@ -52,47 +52,47 @@ const MarketGardenAndKitchen = ({ collectionSlug }) => {
                 </h3>
                 <ul>
                     <li>
-                        <Link href="/shop" as="/shop/best-seller">
+                        <Link href="/listing" as="/listing/best-seller">
                             <a>Best Seller</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/new-arrivals">
+                        <Link href="/listing" as="/listing/new-arrivals">
                             <a>New Arrivals</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/furniture">
+                        <Link href="/listing" as="/listing/furniture">
                             <a>Furniture</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/home-decor">
+                        <Link href="/listing" as="/listing/home-decor">
                             <a>Home Decor</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/cookware">
+                        <Link href="/listing" as="/listing/cookware">
                             <a>Cookware</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/utensils-and-gadget">
+                        <Link href="/listing" as="/listing/utensils-and-gadget">
                             <a>Utensils & Gadget</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/garden-tools">
+                        <Link href="/listing" as="/listing/garden-tools">
                             <a>Garden Tools</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/acessesories">
+                        <Link href="/listing" as="/listing/acessesories">
                             <a>Acessesories</a>
                         </Link>
                     </li>
                 </ul>
-                <Link href="/shop">
+                <Link href="/listing">
                     <a className="ps-block__more-link">View All</a>
                 </Link>
             </div>

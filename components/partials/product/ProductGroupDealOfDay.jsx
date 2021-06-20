@@ -87,7 +87,7 @@ const ProductGroupDealOfDay = ({
                             </figure>
                         </div>
                     </div>
-                    <Link href="/shop">
+                    <Link href="/listing">
                         <a>View all</a>
                     </Link>
                 </div>

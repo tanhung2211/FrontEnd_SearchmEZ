@@ -52,47 +52,47 @@ const MarketClothingsAndApparel = ({ collectionSlug }) => {
                 </h3>
                 <ul>
                     <li>
-                        <Link href="/shop" as="/shop/best-seller">
+                        <Link href="/listing" as="/listing/best-seller">
                             <a>Best Seller</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/new-arrivals">
+                        <Link href="/listing" as="/listing/new-arrivals">
                             <a>New Arrivals</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/women">
+                        <Link href="/listing" as="/listing/women">
                             <a>Women</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/men">
+                        <Link href="/listing" as="/listing/men">
                             <a>Men</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/girls">
+                        <Link href="/listing" as="/listing/girls">
                             <a>Girls</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/boys">
+                        <Link href="/listing" as="/listing/boys">
                             <a>Boys</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/baby">
+                        <Link href="/listing" as="/listing/baby">
                             <a>Baby</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/sale-and-deal">
+                        <Link href="/listing" as="/listing/sale-and-deal">
                             <a>Sales & Deals</a>
                         </Link>
                     </li>
                 </ul>
-                <Link href="/shop">
+                <Link href="/listing">
                     <a className="ps-block__more-link">View All</a>
                 </Link>
             </div>

@@ -7,6 +7,7 @@ import WidgetShopFilterByPriceRange from '~/components/shared/widgets/WidgetShop
 import ProductRepository from '~/repositories/ProductRepository';
 import { useRouter } from 'next/router';
 import ProductItems from '~/components/partials/product/ProductItems';
+import CollectionRepository from "~/repositories/CollectionRepository";
 
 const ProductCategoryScreen = () => {
     const Router = useRouter();
@@ -17,9 +18,11 @@ const ProductCategoryScreen = () => {
     async function getCategry() {
         setLoading(true);
         if (slug) {
-            const responseData = await ProductRepository.getProductsByCategory(
+            /*const responseData = await ProductRepository.getProductsByCategory(
                 slug
-            );
+            );*/
+            const responseData = await CollectionRepository.getListingSlug(slug);
+            console.log(responseData);
             if (responseData) {
                 setCategory(responseData);
                 setTimeout(
@@ -30,7 +33,7 @@ const ProductCategoryScreen = () => {
                 );
             }
         } else {
-            await Router.push('/shop');
+            await Router.push('/listing');
         }
     }
 
@@ -44,8 +47,8 @@ const ProductCategoryScreen = () => {
             url: '/',
         },
         {
-            text: 'Shop',
-            url: '/',
+            text: 'Listing',
+            url: '/listing',
         },
         {
             text: category ? category.name : 'Product category',
@@ -56,12 +59,12 @@ const ProductCategoryScreen = () => {
     let productItemsViews;
 
     if (!loading) {
-        if (category && category.products.length > 0) {
+        if (category && category.items.length > 0) {
             productItemsViews = (
-                <ProductItems columns={4} products={category.products} />
+                <ProductItems columns={4} products={category.items} />
             );
         } else {
-            productItemsViews = <p>No Product found</p>;
+            productItemsViews = <p>No Listing found</p>;
         }
     } else {
         productItemsViews = <p>Loading...</p>;
@@ -77,8 +80,8 @@ const ProductCategoryScreen = () => {
                     <div className="ps-layout--shop ps-shop--category">
                         <div className="ps-layout__left">
                             <WidgetShopCategories />
-                            <WidgetShopBrands />
-                            <WidgetShopFilterByPriceRange />
+                            {/*<WidgetShopBrands />*/}
+                            {/*<WidgetShopFilterByPriceRange />*/}
                         </div>
                         <div className="ps-layout__right">
                             <h3 className="ps-shop__heading">

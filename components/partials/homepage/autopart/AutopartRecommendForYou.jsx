@@ -62,22 +62,22 @@ const AutopartRecommendForYou = ({ collectionSlug }) => {
                     <h3>RECOMMENDED FOR YOU</h3>
                     <ul className="ps-section__links">
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>Best Seller</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>New Arrival</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>Top Rated</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>Trending Products</a>
                             </Link>
                         </li>

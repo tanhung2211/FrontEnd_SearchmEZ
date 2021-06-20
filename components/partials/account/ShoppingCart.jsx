@@ -145,7 +145,7 @@ class ShoppingCart extends Component {
                             </table>
                         </div>
                         <div className="ps-section__cart-actions">
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>
                                     <i className="icon-arrow-left mr-2"></i>
                                     Back to Shop

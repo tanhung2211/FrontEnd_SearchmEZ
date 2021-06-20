@@ -12,6 +12,7 @@ import RelatedProduct from '~/components/partials/product/RelatedProduct';
 import ContainerPage from '~/components/layouts/ContainerPage';
 import HeaderProduct from '~/components/shared/headers/HeaderProduct';
 import HeaderDefault from '~/components/shared/headers/HeaderDefault';
+import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
 
 const ProductDefaultPage = () => {
     const router = useRouter();
@@ -57,7 +58,7 @@ const ProductDefaultPage = () => {
             productView = <ProductDetailFullwidth product={product} />;
             headerView = <HeaderProduct product={product} />;
         } else {
-            headerView = <HeaderDefault />;
+            headerView = <HeaderMarketPlace4 />;
         }
     } else {
         productView = <SkeletonProductDetail />;

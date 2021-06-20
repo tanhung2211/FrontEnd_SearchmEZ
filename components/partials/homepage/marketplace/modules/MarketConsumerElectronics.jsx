@@ -50,57 +50,57 @@ const MarketConsumerElectronics = ({ collectionSlug }) => {
                 <h3>Consumer Electronics</h3>
                 <ul>
                     <li>
-                        <Link href="/shop" as="/shop/best-seller">
+                        <Link href="/listing" as="/listing/best-seller">
                             <a>Best Seller</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/new-arrivals">
+                        <Link href="/listing" as="/listing/new-arrivals">
                             <a>New Arrivals</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/tv-television">
+                        <Link href="/listing" as="/listing/tv-television">
                             <a>TV Television</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/air-conditions">
+                        <Link href="/listing" as="/listing/air-conditions">
                             <a>Air Condition</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/washing-machine">
+                        <Link href="/listing" as="/listing/washing-machine">
                             <a>Washing Machine</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/microware">
+                        <Link href="/listing" as="/listing/microware">
                             <a>Microwave</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/refrigerator">
+                        <Link href="/listing" as="/listing/refrigerator">
                             <a>Refrigerator</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/office-electronic">
+                        <Link href="/listing" as="/listing/office-electronic">
                             <a>Office Electronic</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/car-electronic">
+                        <Link href="/listing" as="/listing/car-electronic">
                             <a>Car Electronic</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/shop" as="/shop/sale-and-deal">
+                        <Link href="/listing" as="/listing/sale-and-deal">
                             <a>Sales & Deals</a>
                         </Link>
                     </li>
                 </ul>
-                <Link href="/shop">
+                <Link href="/listing">
                     <a className="ps-block__more-link">View All</a>
                 </Link>
             </div>

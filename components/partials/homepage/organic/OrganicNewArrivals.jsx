@@ -53,32 +53,32 @@ const OrganicNewArrivals = ({ collectionSlug }) => {
                     <h3>New Arrivals</h3>
                     <ul className="ps-section__links">
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>Milks & Creams</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>Fruits</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>Vegetables</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>Ocean Foods</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>Fresh Meats</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/shop">
+                            <Link href="/listing">
                                 <a>View All</a>
                             </Link>
                         </li>

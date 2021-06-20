@@ -84,7 +84,7 @@ class GardenAndKitchen extends Component {
                                 </li>
                             ))}
                             <li>
-                                <Link href="/shop">
+                                <Link href="/listing">
                                     <a>View All</a>
                                 </Link>
                             </li>

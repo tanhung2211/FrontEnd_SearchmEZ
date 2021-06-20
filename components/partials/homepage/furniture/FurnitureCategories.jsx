@@ -12,7 +12,7 @@ const FurnitureCategories = () => {
                     <div className="row">
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 ">
                             <div className="ps-block--category">
-                                <Link href="/shop">
+                                <Link href="/listing">
                                     <a></a>
                                 </Link>
                                 <img
@@ -24,7 +24,7 @@ const FurnitureCategories = () => {
                         </div>
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 ">
                             <div className="ps-block--category">
-                                <Link href="/shop">
+                                <Link href="/listing">
                                     <a></a>
                                 </Link>
                                 <img
@@ -36,7 +36,7 @@ const FurnitureCategories = () => {
                         </div>
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 ">
                             <div className="ps-block--category">
-                                <Link href="/shop">
+                                <Link href="/listing">
                                     <a></a>
                                 </Link>
                                 <img
@@ -48,7 +48,7 @@ const FurnitureCategories = () => {
                         </div>
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 ">
                             <div className="ps-block--category">
-                                <Link href="/shop">
+                                <Link href="/listing">
                                     <a></a>
                                 </Link>
                                 <img
@@ -60,7 +60,7 @@ const FurnitureCategories = () => {
                         </div>
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 ">
                             <div className="ps-block--category">
-                                <Link href="/shop">
+                                <Link href="/listing">
                                     <a></a>
                                 </Link>
                                 <img
@@ -72,7 +72,7 @@ const FurnitureCategories = () => {
                         </div>
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 ">
                             <div className="ps-block--category">
-                                <Link href="/shop">
+                                <Link href="/listing">
                                     <a></a>
                                 </Link>
                                 <img
@@ -84,7 +84,7 @@ const FurnitureCategories = () => {
                         </div>
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 ">
                             <div className="ps-block--category">
-                                <Link href="/shop">
+                                <Link href="/listing">
                                     <a></a>
                                 </Link>
                                 <img
@@ -96,7 +96,7 @@ const FurnitureCategories = () => {
                         </div>
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 ">
                             <div className="ps-block--category">
-                                <Link href="/shop">
+                                <Link href="/listing">
                                     <a></a>
                                 </Link>
                                 <img
@@ -108,7 +108,7 @@ const FurnitureCategories = () => {
                         </div>
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 ">
                             <div className="ps-block--category">
-                                <Link href="/shop">
+                                <Link href="/listing">
                                     <a></a>
                                 </Link>
                                 <img
@@ -120,7 +120,7 @@ const FurnitureCategories = () => {
                         </div>
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 ">
                             <div className="ps-block--category">
-                                <Link href="/shop">
+                                <Link href="/listing">
                                     <a></a>
                                 </Link>
                                 <img
@@ -132,7 +132,7 @@ const FurnitureCategories = () => {
                         </div>
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 ">
                             <div className="ps-block--category">
-                                <Link href="/shop">
+                                <Link href="/listing">
                                     <a></a>
                                 </Link>
                                 <img
@@ -144,7 +144,7 @@ const FurnitureCategories = () => {
                         </div>
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 ">
                             <div className="ps-block--category">
-                                <Link href="/shop">
+                                <Link href="/listing">
                                     <a></a>
                                 </Link>
                                 <img

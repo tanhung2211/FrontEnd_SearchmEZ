@@ -53,7 +53,7 @@ const HomeDefaultBanner = () => {
     if (bannerItems) {
         const carouseItems = bannerItems.map((item) => (
             <div className="slide-item" key={item.id}>
-                <Link href="/shop">
+                <Link href="/listing">
                     <a
                         className="ps-banner-item--default bg--cover"
                         style={{
@@ -75,11 +75,11 @@ const HomeDefaultBanner = () => {
                 <div className="ps-section__left">{mainCarouselView}</div>
                 <div className="ps-section__right">
                     <Promotion
-                        link="/shop"
+                        link="/listing"
                         image={promotion1 ? promotion1.image : null}
                     />
                     <Promotion
-                        link="/shop"
+                        link="/listing"
                         image={promotion2 ? promotion2.image : null}
                     />
                 </div>

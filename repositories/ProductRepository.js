@@ -144,6 +144,20 @@ class ProductRepository {
             .catch((error) => ({ error: JSON.stringify(error) }));
         return reponse;
     }
+    async getListings(params) {
+        const reponse = await Repository.get(
+            `http://api.searchmez.work/api/listing?${serializeQuery(params)}`
+        )
+            .then((response) => {
+                return {
+                    items: response.data,
+                    totalItems: response.data.length,
+                };
+            })
+
+            .catch((error) => ({ error: JSON.stringify(error) }));
+        return reponse;
+    }
 }
 
 export default new ProductRepository();

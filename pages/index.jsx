@@ -11,6 +11,7 @@ import ContainerHomeDefault from '~/components/layouts/ContainerHomeDefault';
 import HomeDefaultProductListing from '~/components/partials/homepage/home-default/HomeDefaultProductListing';
 import HomeDefaultBanner from '~/components/partials/homepage/home-default/HomeDefaultBanner';
 import BestSaleItems from "~/components/partials/shop/modules/BestSaleItems";
+import HomeGetListing from "~/components/partials/homepage/home-default/HomeGetListing";
 
 const HomepageDefaultPage = () => {
     return (
@@ -23,34 +24,37 @@ const HomepageDefaultPage = () => {
             />
             <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />
 
-            <HomeDefaultProductListing
-                collectionSlug="consumer-electronics"
+            <HomeGetListing
+                collectionSlug="booking"
                 title="Hire someone for your project"
             />
             <HomeAdsColumns />
-            <HomeDefaultProductListing
-                collectionSlug="clothings"
+            <HomeGetListing
+                collectionSlug="animals"
                 title="Apply and don't miss out the oppurtunity"
             />
-            <HomeDefaultProductListing
-                collectionSlug="garden-and-kitchen"
+            <HomeGetListing
+                collectionSlug="realestate"
                 title="Find your dream house"
             />
-                <HomeDefaultProductListing
-                    collectionSlug="garden-and-kitchen"
-                    title="Recent a place or a car"
-                />
+            <HomeGetListing
+                collectionSlug="automobiles"
+                title="Recent a place or a car"
+            />
+
             <HomeAds />
-            <HomeDefaultProductListing
-                collectionSlug="garden-and-kitchen"
-                title="Read and learn something interesting"
-            />
-            <HomeDefaultProductListing
-                collectionSlug="garden-and-kitchen"
-                title="Discover and book your next destination"
-            />
-            <HomeDefaultProductListing
-                collectionSlug="garden-and-kitchen"
+                <HomeGetListing
+                    collectionSlug="blogs"
+                    title="Read and learn something interesting"
+                />
+                <HomeGetListing
+                    collectionSlug="services"
+                    title="Discover and book your next destination"
+                />
+
+
+            <HomeGetListing
+                collectionSlug="animals"
                 title="Other things you should be looking for"
             />
             {/*<DownLoadApp />*/}
