@@ -4,7 +4,9 @@
 .ps-product-list .ps-section__content {
   padding-top: 30px;
 }
-
+.ps-block--category p {
+  font-size: 14px;
+}
 
 @media screen and (max-width: 480px) {
   .ps-footer__widgets{display: block;}

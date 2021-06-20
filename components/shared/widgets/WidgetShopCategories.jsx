@@ -31,6 +31,8 @@ const WidgetShopCategories = () => {
             {'slug' : 'services', 'name' : 'Service Shop'},
             {'slug' : 'stores', 'name' : 'Stores'},
             {'slug' : 'webdirectory', 'name' : 'Web Directory'},
+            {'slug' : 'apparels', 'name' : 'Apparels'},
+            {'slug' : 'edibles', 'name' : 'Edibles'},
         ];
         if (responseData) {
             setCategories(responseData);
