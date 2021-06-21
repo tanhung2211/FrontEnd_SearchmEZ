@@ -40,7 +40,7 @@ const ListingItems = ({ columns = 4, pageSize = 12 }) => {
     }
 
     function handlePagination(page, pageSize) {
-        Router.push(`/shop?page=${page}`);
+        Router.push(`/listing?page=${page}`);
     }
 
     async function getTotalRecords(params) {
