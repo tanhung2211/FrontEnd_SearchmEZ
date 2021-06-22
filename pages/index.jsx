@@ -18,11 +18,11 @@ const HomepageDefaultPage = () => {
         <ContainerHomeDefault title="Multipurpose Marketplace">
             <HomeDefaultBanner />
             <HomeDefaultTopCategories />
-            <BestSaleItems
-                collectionSlug="consumer-electronics"
-                title="Consumer Electronics"
-            />
-            <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />
+            {/*<BestSaleItems*/}
+            {/*    collectionSlug="consumer-electronics"*/}
+            {/*    title="Consumer Electronics"*/}
+            {/*/>*/}
+            {/*<HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />*/}
 
             <HomeGetListing
                 collectionSlug="booking"

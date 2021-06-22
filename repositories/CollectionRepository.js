@@ -1,4 +1,4 @@
-import Repository, { baseUrl } from './Repository';
+import Repository, {baseAPI, baseUrl} from './Repository';
 
 class CollectionRepository {
     async getCollections(payload) {
@@ -63,25 +63,6 @@ class CollectionRepository {
             .then((response) => {
                 if (response.data && response.data.length > 0) {
                     return { items: response.data[0].products };
-                } else {
-                    return null;
-                }
-                return response.data;
-            })
-            .catch((error) => {
-                console.log(JSON.stringify(error));
-                return null;
-            });
-        return reponse;
-    }
-
-    async getListingSlug(slug) {
-        const reponse = await Repository.get(
-            `http://api.searchmez.work/api/listing/${slug}`
-        )
-            .then((response) => {
-                if (response.data && response.data.length > 0) {
-                    return { items: response.data };
                 } else {
                     return null;
                 }

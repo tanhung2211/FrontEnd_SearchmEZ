@@ -157,7 +157,7 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/category/apparels">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/searchmez/webdirectory.png" alt="searchmez" />
+                        <img src="/searchmez/apparels.png" alt="searchmez" />
                         <p>Apparels</p>
                     </div>
                 </div>
@@ -166,7 +166,7 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/category/edibles">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/searchmez/webdirectory.png" alt="searchmez" />
+                        <img src="/searchmez/edibles.png" alt="searchmez" />
                         <p>Edibles</p>
                     </div>
                 </div>

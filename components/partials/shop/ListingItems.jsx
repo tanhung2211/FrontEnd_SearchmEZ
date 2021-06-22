@@ -7,6 +7,7 @@ import ModuleShopSortBy from '~/components/partials/shop/modules/ModuleShopSortB
 import { useRouter } from 'next/router';
 import { generateTempArray } from '~/utilities/common-helpers';
 import SkeletonProduct from '~/components/elements/skeletons/SkeletonProduct';
+import SearchmezRepository from "~/repositories/SearchmezRepository";
 
 const ListingItems = ({ columns = 4, pageSize = 12 }) => {
     const Router = useRouter();
@@ -27,7 +28,7 @@ const ListingItems = ({ columns = 4, pageSize = 12 }) => {
 
     async function getProducts(params) {
         setLoading(true);
-        const responseData = await ProductRepository.getListings(params);
+        const responseData = await SearchmezRepository.getListings(params);
         if (responseData) {
             setProductItems(responseData.items);
             setTimeout(

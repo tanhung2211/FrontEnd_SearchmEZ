@@ -5,11 +5,14 @@ import { login } from '../../../store/auth/action';
 
 import { Form, Input, notification } from 'antd';
 import { connect } from 'react-redux';
+import SearchmezRepository from "~/repositories/SearchmezRepository";
 
 class Login extends Component {
     constructor(props) {
         super(props);
         this.state = {};
+
+        this.handleChange = this.handleChange.bind(this);
     }
 
     static getDerivedStateFromProps(props) {
@@ -27,13 +30,50 @@ class Login extends Component {
             duration: 500,
         });
     }
-
+    handleChange(e) {
+        const { name, value } = e.target;
+        this.setState({ [name]: value });
+    }
     handleLoginSubmit = e => {
+
         console.log('test');
+        this.setState({ submitted: true });
+        const { email, password,rememberme, returnUrl } = this.state;
+
+        // stop here if form is invalid
+        if (!(email && password)) {
+            return;
+        }
+        const responseData = SearchmezRepository.login(email,password,rememberme);
+        if (responseData) {
+            console.log(responseData);
+        } else {
+            return;
+        }
+        return;
         this.props.dispatch(login());
         Router.push('/');
 
     };
+    handleLoginSubmit123(e) {
+        e.preventDefault();
+
+
+
+        this.setState({ loading: true });
+        console.log(this.state);
+        // userService.login(username, password)
+        //     .then(
+        //         user => {
+        //             const { from } = this.props.location.state || { from: { pathname: "/" } };
+        //             this.props.history.push(from);
+        //         },
+        //         error => this.setState({ error, loading: false })
+        //     );
+        return;
+        this.props.dispatch(login());
+        Router.push('/');
+    }
 
     render() {
         return (
@@ -71,6 +111,8 @@ class Login extends Component {
                                             className="form-control"
                                             type="text"
                                             placeholder="Username or email address"
+                                            name="email"
+                                            onChange={this.handleChange}
                                         />
                                     </Form.Item>
                                 </div>
@@ -88,6 +130,8 @@ class Login extends Component {
                                             className="form-control"
                                             type="password"
                                             placeholder="Password..."
+                                            name="password"
+                                            onChange={this.handleChange}
                                         />
                                     </Form.Item>
                                 </div>
@@ -96,10 +140,11 @@ class Login extends Component {
                                         <input
                                             className="form-control"
                                             type="checkbox"
-                                            id="remember-me"
-                                            name="remember-me"
+                                            id="rememberme"
+                                            name="rememberme"
+                                            onChange={this.handleChange}
                                         />
-                                        <label htmlFor="remember-me">
+                                        <label htmlFor="rememberme">
                                             Rememeber me
                                         </label>
                                     </div>

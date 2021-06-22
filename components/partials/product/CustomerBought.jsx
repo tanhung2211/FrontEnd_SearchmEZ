@@ -69,7 +69,7 @@ const CustomerBought = ({ collectionSlug, boxed, layout }) => {
                 boxed === true ? 'boxed' : ''
             }`}>
             <div className="ps-section__header">
-                <h3>Customers who bought this item also bought</h3>
+                <h3>Featured</h3>
             </div>
             <div className="ps-section__content">{carouselView}</div>
         </div>

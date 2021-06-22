@@ -8,6 +8,7 @@ import ProductRepository from '~/repositories/ProductRepository';
 import { useRouter } from 'next/router';
 import ProductItems from '~/components/partials/product/ProductItems';
 import CollectionRepository from "~/repositories/CollectionRepository";
+import SearchmezRepository from "~/repositories/SearchmezRepository";
 
 const ProductCategoryScreen = () => {
     const Router = useRouter();
@@ -21,8 +22,7 @@ const ProductCategoryScreen = () => {
             /*const responseData = await ProductRepository.getProductsByCategory(
                 slug
             );*/
-            const responseData = await CollectionRepository.getListingSlug(slug);
-            console.log(responseData);
+            const responseData = await SearchmezRepository.getListingSlug(slug);
             if (responseData) {
                 setCategory(responseData);
                 setTimeout(

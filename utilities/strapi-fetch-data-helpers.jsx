@@ -7,6 +7,7 @@
 import React from 'react';
 import CollectionRepository from '~/repositories/CollectionRepository';
 import ProductRepository from '~/repositories/ProductRepository';
+import SearchmezRepository from "~/repositories/SearchmezRepository";
 
 export async function getProductsByCollectionHelper(
     collectionSlug,
@@ -14,7 +15,7 @@ export async function getProductsByCollectionHelper(
 ) {
     let products;
     if (collectionSlug) {
-        products = await CollectionRepository.getProductsByCollectionSlug(
+        products = await SearchmezRepository.getListingSlug(
             collectionSlug
         );
     } else {
@@ -55,7 +56,7 @@ export async function getListingSlug(
 ) {
     let products;
     if (collectionSlug) {
-        products = await CollectionRepository.getListingSlug(
+        products = await SearchmezRepository.getListingSlug(
             collectionSlug
         );
     } else {

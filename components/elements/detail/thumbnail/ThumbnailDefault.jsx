@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Slider from 'react-slick';
 import Lightbox from 'react-image-lightbox';
-import { baseUrl } from '~/repositories/Repository';
+import { baseUrl, baseImage } from '~/repositories/Repository';
 import NextArrow from '~/components/elements/carousel/NextArrow';
 import PrevArrow from '~/components/elements/carousel/PrevArrow';
 
-const ThumbnailDefault = ({ product, vertical = true }) => {
+const ThumbnailDefault = ({ product, vertical = false }) => {
     const galleryCarousel = useRef(null);
     const variantCarousel = useRef(null);
     const [gallery, setGallery] = useState(null);
@@ -23,8 +23,10 @@ const ThumbnailDefault = ({ product, vertical = true }) => {
     useEffect(() => {
         let images = [];
         if (product && product.images.length > 0) {
+            let listing = product.listing;
             product.images.map((item) => {
-                images.push(`${baseUrl}${item.url}`);
+                // images.push(`${baseUrl}${item.url}`);
+                images.push(`${baseImage}${listing}/${item.name}`);
             });
             setProductImages(images);
         }

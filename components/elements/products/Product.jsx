@@ -28,7 +28,7 @@ const Product = ({ product }) => {
                     <a className="ps-product__vendor">{product.listing}</a>
                 </Link>
                 <div className="ps-product__content">
-                    <Link href="/product/[pid]" as={`/product/${product.id}`}>
+                    <Link href="/lister/[pid]" as={`/lister/${product.id}`}>
                         <a className="ps-product__title">{product.title}</a>
                     </Link>
                     <div className="ps-product__rating">
@@ -38,7 +38,7 @@ const Product = ({ product }) => {
                     {/*{priceView}*/}
                 </div>
                 <div className="ps-product__content hover">
-                    <Link href="/product/[pid]" as={`/product/${product.id}`}>
+                    <Link href="/lister/[pid]" as={`/lister/${product.id}`}>
                         <a className="ps-product__title">{product.title}</a>
                     </Link>
                     {/*{priceView}*/}

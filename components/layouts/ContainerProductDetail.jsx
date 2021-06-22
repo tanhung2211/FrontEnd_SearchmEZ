@@ -21,7 +21,7 @@ const ContainerProductDetail = ({ children, title }) => {
             <HeaderMarketPlace4/>
             <HeaderMobileProduct />
             <main>{children}</main>
-            <Newletters />
+            {/*<Newletters />*/}
             <FooterFullwidth />
         </div>
     );

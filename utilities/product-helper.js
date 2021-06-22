@@ -6,7 +6,7 @@
 
 import React from 'react';
 import LazyLoad from 'react-lazyload';
-import { baseUrl } from '~/repositories/Repository';
+import { baseUrl, baseImage } from '~/repositories/Repository';
 import Link from 'next/link';
 
 export function formatCurrency(num) {
@@ -129,11 +129,11 @@ export function StrapiProductThumbnail(product) {
     let view;
     if (product.images) {
         view = (
-            <Link href="/product/[pid]" as={`/product/${product.id}`}>
+            <Link href="/lister/[pid]" as={`/lister/${product.id}`}>
                 <a>
                     <LazyLoad>
                         <img
-                            src={`http://dashboard.searchmez.work/searchmez/images/${product.listing}/${product.name}`}
+                            src={`${baseImage}${product.listing}/${product.name}`}
                             alt={product.title}
                         />
                     </LazyLoad>
@@ -142,7 +142,7 @@ export function StrapiProductThumbnail(product) {
         );
     } else {
         view = (
-            <Link href="/product/[pid]" as={`/product/${product.id}`}>
+            <Link href="/lister/[pid]" as={`/lister/${product.id}`}>
                 <a>
                     <LazyLoad>
                         <img src="/static/img/not-found.jpg" alt="SearchmeZ" />
