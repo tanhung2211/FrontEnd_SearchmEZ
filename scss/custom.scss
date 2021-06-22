@@ -41,8 +41,8 @@
   margin: 20px 0;
   font-weight: 400;
 }
-.listing .ps-product__thumbnail {width: 60%;}
-.listing .ps-product__info {width: 40%;}
+.listing .ps-product__thumbnail {max-width: 60% !important;}
+.listing .ps-product__info {max-width: 40% !important;}
 @media screen and (max-width: 480px) {
   .ps-footer__widgets{display: block;}
   .navigation--list{display: none;}
