@@ -5,15 +5,21 @@
   padding-top: 30px;
 }
 .ps-block--category p {
-  font-size: 14px;
+  font-size: 13px;
+  margin-top: 10px;
 }
+
 .listing_title {
-  margin-bottom: 20px;
+  margin: 10px 0;
   font-size: 24px;
   color: #ff7900;
   font-weight: 400;
   line-height: 1.2;
 }
+.listing .ads {margin-right: 10px;
+  float: left;}
+.ps-product__header {background: #FFF; margin-bottom: 20px;}
+.white-bg {background: #FFF;}
 .ps-product__header p {font-size: 16px; margin-bottom: 0;}
 .ps-product__header .location {margin: 10px 0;}
 .ps-product__header .ps-product__adopt {
@@ -41,8 +47,52 @@
   margin: 20px 0;
   font-weight: 400;
 }
-.listing .ps-product__thumbnail {max-width: 60% !important;}
-.listing .ps-product__info {max-width: 40% !important;}
+.listing .ps-product__thumbnail {max-width: 100% !important;}
+.listing .ps-product__info {max-width: 100% !important;}
+.ps-section--default .ps-section__header {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.ps-product {
+  padding: 10px;
+  border: 0;
+}
+.ps-section--default .ps-section__header h3 {
+  font-weight: 400;
+}
+.ps-product__container {
+  position: absolute;
+  bottom: 0;
+}
+.ps-product:hover a.ps-product__title {display: none;}
+a.ps-product__title {
+  position: absolute;
+  bottom: 0;
+  background: #444;
+  opacity: 0.8;
+  width: 100%;
+  padding: 5px !important;
+  color: #ff7900 !important;
+  max-height: fit-content !important;
+}
+.ps-product .ps-product__thumbnail img {
+  height: 160px;
+}
+#homepage-1 .ps-product-list {
+  padding-bottom: 40px;
+}
+.listing b {
+  font-weight: 500;
+  color: #000;
+}
+.listing_color {color: #ff7900;}
+.auction_countdown {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
 @media screen and (max-width: 480px) {
   .ps-footer__widgets{display: block;}
   .navigation--list{display: none;}

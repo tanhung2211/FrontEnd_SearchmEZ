@@ -15,6 +15,8 @@ import HeaderDefault from '~/components/shared/headers/HeaderDefault';
 import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
 import SearchmezRepository from "~/repositories/SearchmezRepository";
 import Animals from "~/pages/lister/animals";
+import HomeGetListing from "~/components/partials/homepage/home-default/HomeGetListing";
+import Auction from "~/pages/lister/auction";
 const ProductDefaultPage = () => {
     const router = useRouter();
     const { pid } = router.query;
@@ -61,9 +63,12 @@ const ProductDefaultPage = () => {
             if(product.listing == 'animals') {
                 productView = <Animals product={product} />;
                 headerView = <HeaderProduct product={product} />;
-                related = <RelatedProduct collectionSlug="animals" />;
-                custom = <CustomerBought layout="fullwidth" collectionSlug="animals" />;
-            } else {
+            } else if(product.listing == 'auction') {
+                productView = <Auction product={product} />;
+                headerView = <HeaderProduct product={product} />;
+            }
+
+            else  {
                 productView = <ProductDetailFullwidth product={product} />;
                 headerView = <HeaderProduct product={product} />;
                 custom = <CustomerBought layout="fullwidth" collectionSlug="deal-of-the-day" />;
@@ -89,11 +94,10 @@ const ProductDefaultPage = () => {
                         {/*    <ProductWidgets />*/}
                         {/*</div>*/}
                     </div>
-                    {related}
-                    {custom}
-
                 </div>
             </div>
+            {/*{related}*/}
+            {/*{custom}*/}
         </ContainerProductDetail>
     );
 };

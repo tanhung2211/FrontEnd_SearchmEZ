@@ -127,7 +127,8 @@ export function StrapiProductPriceExpanded(product) {
 
 export function StrapiProductThumbnail(product) {
     let view;
-    if (product.images) {
+    console.log(product.name);
+    if (product && product.images) {
         view = (
             <Link href="/lister/[pid]" as={`/lister/${product.id}`}>
                 <a>

@@ -17,6 +17,15 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col">
                     <div className="ps-block--category">
+                        <Link href="/category/apparels">
+                            <a className="ps-block__overlay"></a>
+                        </Link>
+                        <img src="/searchmez/apparels.png" alt="searchmez" />
+                        <p>Apparels</p>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="ps-block--category">
                         <Link href="/category/auction">
                             <a className="ps-block__overlay"></a>
                         </Link>
@@ -62,6 +71,15 @@ const HomeDefaultTopCategories = () => (
                 </div>
                 <div className="col">
                     <div className="ps-block--category">
+                        <Link href="/category/edibles">
+                            <a className="ps-block__overlay"></a>
+                        </Link>
+                        <img src="/searchmez/edibles.png" alt="searchmez" />
+                        <p>Edibles</p>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="ps-block--category">
                         <Link href="/category/events">
                             <a className="ps-block__overlay"></a>
                         </Link>
@@ -69,6 +87,9 @@ const HomeDefaultTopCategories = () => (
                         <p>Events</p>
                     </div>
                 </div>
+
+            </div>
+            <div className="row">
                 <div className="col">
                     <div className="ps-block--category">
                         <Link href="/category/generallisting">
@@ -87,8 +108,6 @@ const HomeDefaultTopCategories = () => (
                         <p>Jobs</p>
                     </div>
                 </div>
-            </div>
-            <div className="row">
                 <div className="col">
                     <div className="ps-block--category">
                         <Link href="/category/meetups">
@@ -131,7 +150,7 @@ const HomeDefaultTopCategories = () => (
                             <a className="ps-block__overlay"></a>
                         </Link>
                         <img src="/searchmez/services.png" alt="searchmez" />
-                        <p>Service Shop</p>
+                        <p>Services</p>
                     </div>
                 </div>
                 <div className="col">
@@ -139,8 +158,8 @@ const HomeDefaultTopCategories = () => (
                         <Link href="/category/stores">
                             <a className="ps-block__overlay"></a>
                         </Link>
-                        <img src="/searchmez/stores.png" alt="searchmez" />
-                        <p>Stores</p>
+                        <img src="/searchmez/products.png" alt="searchmez" />
+                        <p>Products</p>
                     </div>
                 </div>
                 <div className="col">
@@ -150,24 +169,6 @@ const HomeDefaultTopCategories = () => (
                         </Link>
                         <img src="/searchmez/webdirectory.png" alt="searchmez" />
                         <p>Web Directory</p>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="ps-block--category">
-                        <Link href="/category/apparels">
-                            <a className="ps-block__overlay"></a>
-                        </Link>
-                        <img src="/searchmez/apparels.png" alt="searchmez" />
-                        <p>Apparels</p>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="ps-block--category">
-                        <Link href="/category/edibles">
-                            <a className="ps-block__overlay"></a>
-                        </Link>
-                        <img src="/searchmez/edibles.png" alt="searchmez" />
-                        <p>Edibles</p>
                     </div>
                 </div>
             </div>

@@ -20,30 +20,33 @@ const Product = ({ product }) => {
         <div className="ps-product">
             <div className="ps-product__thumbnail">
                 {thumbnailImage}
-                {badgeView}
+                {/*{badgeView}*/}
                 <ModuleProductActions product={product} />
-            </div>
-            <div className="ps-product__container">
-                <Link href="/listing">
-                    <a className="ps-product__vendor">{product.listing}</a>
+                <Link href="/lister/[pid]" as={`/lister/${product.id}`}>
+                    <a className="ps-product__title">{product.title}</a>
                 </Link>
-                <div className="ps-product__content">
-                    <Link href="/lister/[pid]" as={`/lister/${product.id}`}>
-                        <a className="ps-product__title">{product.title}</a>
-                    </Link>
-                    <div className="ps-product__rating">
-                        <Rating />
-                        <span>02</span>
-                    </div>
-                    {/*{priceView}*/}
-                </div>
-                <div className="ps-product__content hover">
-                    <Link href="/lister/[pid]" as={`/lister/${product.id}`}>
-                        <a className="ps-product__title">{product.title}</a>
-                    </Link>
-                    {/*{priceView}*/}
-                </div>
             </div>
+            {/*<div className="ps-product__container">*/}
+            {/*    <Link href="/listing">*/}
+            {/*        <a className="ps-product__vendor">{product.listing}</a>*/}
+            {/*    </Link>*/}
+            {/*    <div className="ps-product__content">*/}
+            {/*        <Link href="/lister/[pid]" as={`/lister/${product.id}`}>*/}
+            {/*            <a className="ps-product__title">{product.title}</a>*/}
+            {/*        </Link>*/}
+            {/*        <div className="ps-product__rating">*/}
+            {/*            <Rating />*/}
+            {/*            <span>02</span>*/}
+            {/*        </div>*/}
+            {/*        {priceView}*/}
+            {/*    </div>*/}
+            {/*    <div className="ps-product__content hover">*/}
+            {/*        <Link href="/lister/[pid]" as={`/lister/${product.id}`}>*/}
+            {/*            <a className="ps-product__title">{product.title}</a>*/}
+            {/*        </Link>*/}
+            {/*        /!*{priceView}*!/*/}
+            {/*    </div>*/}
+            {/*</div>*/}
         </div>
     );
 };

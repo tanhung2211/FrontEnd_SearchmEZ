@@ -80,7 +80,7 @@ export const carouselFullwidth = {
     dots: false,
     infinite: true,
     speed: 750,
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 3,
     arrows: true,
     nextArrow: <NextArrow />,
@@ -90,7 +90,7 @@ export const carouselFullwidth = {
         {
             breakpoint: 1750,
             settings: {
-                slidesToShow: 6,
+                slidesToShow: 5,
                 slidesToScroll: 3,
                 dots: true,
                 arrows: false,
