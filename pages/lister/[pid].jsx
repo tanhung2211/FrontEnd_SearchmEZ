@@ -17,6 +17,12 @@ import SearchmezRepository from "~/repositories/SearchmezRepository";
 import Animals from "~/pages/lister/animals";
 import HomeGetListing from "~/components/partials/homepage/home-default/HomeGetListing";
 import Auction from "~/pages/lister/auction";
+import Blogs from "~/pages/lister/blogs";
+import Booking from "~/pages/lister/booking";
+import Coupon from "~/pages/lister/coupon";
+import Events from "~/pages/lister/events";
+import Jobs from "~/pages/lister/jobs";
+import Generallisting from "~/pages/lister/generallisting";
 const ProductDefaultPage = () => {
     const router = useRouter();
     const { pid } = router.query;
@@ -66,15 +72,31 @@ const ProductDefaultPage = () => {
             } else if(product.listing == 'auction') {
                 productView = <Auction product={product} />;
                 headerView = <HeaderProduct product={product} />;
+            } else if(product.listing == 'blogs') {
+                productView = <Blogs product={product} />;
+                headerView = <HeaderProduct product={product} />;
+            } else if(product.listing == 'booking') {
+                productView = <Booking product={product} />;
+                headerView = <HeaderProduct product={product} />;
+            } else if(product.listing == 'coupon') {
+                productView = <Coupon product={product} />;
+                headerView = <HeaderProduct product={product} />;
+            } else if(product.listing == 'events') {
+                productView = <Events product={product} />;
+                headerView = <HeaderProduct product={product} />;
+            } else if(product.listing == 'generallisting') {
+                productView = <Generallisting product={product} />;
+                headerView = <HeaderProduct product={product} />;
+            } else if(product.listing == 'jobs') {
+                productView = <Jobs product={product} />;
+                headerView = <HeaderProduct product={product} />;
             }
-
             else  {
                 productView = <ProductDetailFullwidth product={product} />;
                 headerView = <HeaderProduct product={product} />;
                 custom = <CustomerBought layout="fullwidth" collectionSlug="deal-of-the-day" />;
                 related = <RelatedProduct collectionSlug="shop-recommend-items" />;
             }
-
         } else {
             headerView = <HeaderMarketPlace4 />;
         }

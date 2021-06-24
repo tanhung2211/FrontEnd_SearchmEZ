@@ -5,11 +5,6 @@ const ModuleProductDetailDescription = ({ product }) => (
     <div className="ps-product__desc">
         <p>
             Sold By:
-            <Link href="/shop">
-                <a>
-                    <strong> {product.vendor}</strong>
-                </a>
-            </Link>
         </p>
         <ul className="ps-list--dot">
             <li>Unrestrained and portable active stereo speaker</li>

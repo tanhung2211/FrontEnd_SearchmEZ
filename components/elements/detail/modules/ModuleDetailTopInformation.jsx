@@ -18,20 +18,13 @@ const ModuleDetailTopInformation = ({ product }) => {
     }
     return (
         <header>
-            <h1>{product.title}</h1>
+            <div className="listing_title">{product.title}</div>
             <div className="ps-product__meta">
-                <p>
-                    Brand:
-                    <Link href="/shop">
-                        <a className="ml-2 text-capitalize">{product.vendor}</a>
-                    </Link>
-                </p>
                 <div className="ps-product__rating">
                     <Rating />
                     <span>(1 review)</span>
                 </div>
             </div>
-            {priceView}
         </header>
     );
 };
