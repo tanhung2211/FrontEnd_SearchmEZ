@@ -41,7 +41,7 @@ const Coupon = ({ product }) => {
                                         <p>Lister On: <b>{product.publishedAt}</b></p>
                                     </div>
                                 </div>
-                                <p className="location"><a href={product.googlemap} target="_blank"><i className="icon-map-marker"></i> {product.location}</a> </p>
+                                <p className="location"><a href={`https://www.google.com/maps/place/${product.location}`} target="_blank"><i className="icon-map-marker"></i> {product.googlemap}, {product.location}</a> </p>
                                 <div className="row mt-2">
                                     <div className="col-md-6">
                                         <p>Materials: <b>{product.color}</b></p>

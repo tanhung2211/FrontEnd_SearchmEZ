@@ -18,6 +18,15 @@ const JobsDescription = ({ product }) => {
         <div className="ps-tab-root">
             <Tabs defaultActiveKey="1">
                 <TabPane tab="Location" key="1">
+                    <iframe
+                        width="100%"
+                        height="450"
+                        style={{border:0}}
+                        loading="lazy"
+                        allowFullScreen
+                        src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAfdQRKT9XashLndhD6wicOR0lkXgY8U6c&q=${product.location}`}
+                    >
+                    </iframe>
                     {product.location}
                 </TabPane>
                 <TabPane tab="Recrulter Details" key="2">

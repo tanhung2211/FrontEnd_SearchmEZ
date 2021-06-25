@@ -38,7 +38,16 @@ const EventsDescription = ({ product }) => {
                     ))}
                 </TabPane>
                 <TabPane tab="Location" key="4">
-                    <p className="location"><a href={product.googlemap} target="_blank"><i className="icon-map-marker"></i> {product.location}</a> </p>
+                    <iframe
+                        width="100%"
+                        height="450"
+                        style={{border:0}}
+                        loading="lazy"
+                        allowFullScreen
+                        src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAfdQRKT9XashLndhD6wicOR0lkXgY8U6c&q=${product.location}`}
+                    >
+                    </iframe>
+                    {product.location}
                 </TabPane>
                 <TabPane tab="Discussion" key="5">
                     {product.include_question}

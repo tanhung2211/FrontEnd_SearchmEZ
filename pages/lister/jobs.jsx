@@ -41,7 +41,7 @@ const Jobs = ({ product }) => {
                                     <p>Closes On: <b>{product.age}</b></p>
                                 </div>
                                 <div className="col-md-12">
-                                    <p className="location"><a href={product.googlemap} target="_blank"><i className="icon-map-marker"></i> {product.location}</a></p>
+                                    <p className="location"><a href={`https://www.google.com/maps/place/${product.location}`} target="_blank"><i className="icon-map-marker"></i> {product.googlemap}, {product.location}</a> </p>
                                 </div>
                             </div>
                             <div className="row">

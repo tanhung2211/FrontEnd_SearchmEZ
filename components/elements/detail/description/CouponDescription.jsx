@@ -24,7 +24,16 @@ const CouponDescription = ({ product }) => {
                     {product.special_traits}
                 </TabPane>
                 <TabPane tab="Location" key="3">
-                    <p className="location"><a href={product.googlemap} target="_blank"><i className="icon-map-marker"></i> {product.location}</a> </p>
+                    <iframe
+                        width="100%"
+                        height="450"
+                        style={{border:0}}
+                        loading="lazy"
+                        allowFullScreen
+                        src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAfdQRKT9XashLndhD6wicOR0lkXgY8U6c&q=${product.location}`}
+                    >
+                    </iframe>
+                    {product.location}
                 </TabPane>
                 <TabPane tab="Discussion" key="4">
                     {product.include_question}

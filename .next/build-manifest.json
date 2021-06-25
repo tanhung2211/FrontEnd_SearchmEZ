@@ -24,15 +24,15 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/category/[slug]": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/category/[slug].js"
-    ],
     "/lister/[pid]": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/lister/[pid].js"
+    ],
+    "/listing": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/listing.js"
     ]
   },
   "ampFirstPages": []
