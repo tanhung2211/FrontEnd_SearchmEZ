@@ -277,84 +277,94 @@
     },
     "product_categories": [
         {
-            "icon": "icon-star",
+            "icon": "",
             "text": "Animal",
-            "url": "/shop"
+            "url": "/category/animals"
         },
         {
-            "icon": "icon-star",
+            "icon": "",
+            "text": "Apparels",
+            "url": "/category/apparels"
+        },
+        {
+            "icon": "",
             "text": "Auction",
-            "url": "/shop"
+            "url": "/category/auction"
         },
         {
-            "icon": "icon-shirt",
+            "icon": "",
             "text": "Automobiles",
-            "url": "/shop"
+            "url": "/category/automobiles"
         },
         {
-            "icon": "icon-lampshade",
+            "icon": "",
             "text": "Blogs",
-            "url": "/shop"
+            "url": "/category/blogs"
         },
         {
-            "icon": "icon-heart-pulse",
+            "icon": "",
             "text": "Booking",
-            "url": "/shop"
+            "url": "/category/booking"
         },
         {
-            "icon": "icon-diamond2",
+            "icon": "",
             "text": "Coupon",
-            "url": "/shop"
+            "url": "/category/coupon"
         },
         {
-            "icon": "icon-diamond2",
+            "icon": "",
+            "text": "Edibles",
+            "url": "/category/edibles"
+        },
+        {
+            "icon": "",
             "text": "Events",
-            "url": "/shop"
+            "url": "/category/events"
         },
         {
-            "icon": "icon-diamond2",
+            "icon": "",
             "text": "General Listing",
-            "url": "/shop"
+            "url": "/category/generallisting"
         },
         {
-            "icon": "icon-baby-bottle",
+            "icon": "",
             "text": "Jobs",
-            "url": "/shop"
+            "url": "/category/jobs"
         },
         {
-            "icon": "icon-baseball",
+            "icon": "",
             "text": "Meetups",
-            "url": "/shop"
+            "url": "/category/meetups"
         },
         {
-            "icon": "icon-smartphone",
+            "icon": "",
             "text": "People",
-            "url": "/shop"
+            "url": "/category/people"
         },
         {
-            "icon": "icon-book2",
+            "icon": "",
             "text": "Places",
-            "url": "/shop"
+            "url": "/category/places"
         },
         {
-            "icon": "icon-car-siren",
+            "icon": "",
             "text": "Real Estate",
-            "url": "/shop"
+            "url": "/category/realestate"
         },
         {
-            "icon": "icon-wrench",
+            "icon": "",
             "text": "Service Shop",
-            "url": "/shop"
+            "url": "/category/services"
         },
         {
-            "icon": "icon-tag",
-            "text": "Stores",
-            "url": "/shop"
+            "icon": "",
+            "text": "Products",
+            "url": "/category/products"
         },
         {
-            "icon": "icon-tag",
+            "icon": "",
             "text": "Web Directory",
-            "url": "/shop"
+            "url": "/category/webdirectory"
         }
     ]
 }

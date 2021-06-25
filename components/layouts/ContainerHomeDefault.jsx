@@ -9,7 +9,7 @@ import HeaderMarketPlace4 from "~/components/shared/headers/HeaderMarketPlace4";
 const ContainerHomeDefault = ({ children, title }) => {
     let titleView;
     if (title !== null) {
-        titleView = process.env.title + ' | ' + title;
+        titleView = title + ' | ' + process.env.title;
     } else {
         titleView = process.env.title + ' | ' + process.env.titleDescription;
     }
@@ -17,8 +17,8 @@ const ContainerHomeDefault = ({ children, title }) => {
     return (
         <div className="martfury">
             <Head>
-                {/*<title>{titleView}</title>*/}
-                <title>SearchmeZ</title>
+                <title>{titleView}</title>
+                {/*<title>SearchmeZ</title>*/}
             </Head>
             {/*<HeaderDefault />*/}
             <HeaderMarketPlace4/>

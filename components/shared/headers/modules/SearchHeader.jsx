@@ -8,11 +8,13 @@ import ProductSearchResult from '~/components/elements/products/ProductSearchRes
 const exampleCategories = [
     'All',
     'Animals',
+    'Apparels',
     'Auction',
     'Automobiles',
     'Blogs',
     'Booking',
     'Coupon',
+    'Edibles',
     'Events',
     'General Listing',
     'Jobs',
@@ -20,8 +22,8 @@ const exampleCategories = [
     'People',
     'Places',
     'Real Estate',
-    'Service Shop',
-    'Stores',
+    'Services',
+    'Products',
     'Web Directory'
 ];
 
